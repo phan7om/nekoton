@@ -792,6 +792,7 @@ fn make_contract_state_handler<'a>(
             ) {
                 log::error!("{e}");
             }
+            log::error!("Hello Nasya!");
         }
         handler.on_state_changed(contract_state.brief())
     }
